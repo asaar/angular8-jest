@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "jest",
+    "build-prod": "ng build --prod",
+    "test": "jest --coverage",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -20,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
     "rxjs": "~6.4.0",
+    "slnodejs": "^3.5.263",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
   },
